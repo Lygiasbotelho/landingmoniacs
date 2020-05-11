@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0;
+ 
 }
 
 header {
@@ -15,6 +16,16 @@ header {
     color: #ffffff;
 }
 
+/*-- Bloco: Funcionalidades App --*/
+.titulo-funcionalidade{
+    text-align: center;
+}
+
+.caixa-titulo{
+    width: 250px;
+    height: 60px;
+    background-color: #5883B3;
+}
 
 
 /*-- Footer --*/

@@ -1,5 +1,5 @@
 * {
-    padding: 0px 5%;
+
     margin: 0;
 }
 @font-face{
@@ -36,43 +36,47 @@ input {
 }
 
 /*-- Bloco: Funcionalidades App --*/
-.bloco-topicos{
+.sessao-topicos{
     margin-top: 60px;
 }
-.titulo-funcionalidade, .text-align{
+.bloco-topicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-funcionalidade, .texto-topicos{
     text-align: center;
 }
 
 .img-topicos{
-    width: 80%;
+    width: 60%;
 }
 .img-topicos-lampada{
-    width: 100%;
+    width: 70%;
 }
 .texto-topicos{
     font-size: 25px;
    margin-top: 20px;
+   t
 }
 
 
 /*-- Footer --*/
 footer{
-   height: 86px;
+   padding: 30px 0 30px 0;
 }
 
 .logo-oficial{
-    width: 20%;
+    width: 7%;
+    margin-left: 50px;
 }
 
 
 
 
+@media screen and (max-width: 768px) {
+
+ }
 
 
 
-
-@media screen and (max-width: 600px) { /*-- Versão Mobile --*/
-
-
-
-}

@@ -2,8 +2,15 @@
     padding: 0px 5%;
     margin: 0;
 }
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: url('public/font/Roboto-Regular.ttf');
+}
 body {
     background-color: lightgray;
+}
+p{
+    font-family: 'Roboto-Regular';
 }
 
 header {
@@ -22,32 +29,39 @@ input {
 .quadroverde {
     margin: 20px;
     padding: 20px;
-    background-color: #006400;
+    background-color:#26AA5E;;
     color: #ffffff;
     border-radius: 20px;
     box-shadow: 7px 7px darkgray;
 }
 
 /*-- Bloco: Funcionalidades App --*/
-.titulo-funcionalidade{
+.bloco-topicos{
+    margin-top: 60px;
+}
+.titulo-funcionalidade, .text-align{
     text-align: center;
 }
 
-.caixa-titulo{
-    width: 250px;
-    height: 60px;
-    background-color: #5883B3;
+.img-topicos{
+    width: 80%;
+}
+.img-topicos-lampada{
+    width: 100%;
+}
+.texto-topicos{
+    font-size: 25px;
+   margin-top: 20px;
 }
 
 
 /*-- Footer --*/
 footer{
-   background: #27AE60;
    height: 86px;
 }
 
 .logo-oficial{
-    padding-left: 45px;
+    width: 20%;
 }
 
 

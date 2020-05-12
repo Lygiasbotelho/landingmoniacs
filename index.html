@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+
+<head>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -26,62 +27,75 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-        <main class="container">
-            <div>
-                <header>
-                    <div class="quadroverde">
-                        <h3>descubra como faturar de 2 a 4 mil reais por mês dirigindo para aplicativos</h3>
+    <main class="container">
+        <div>
+            <header>
+                <div class="quadroverde">
+                    <h3>Descubra como faturar de 2 a 4 mil reais por mês dirigindo para aplicativos</h3>
+                </div>
+                <div class="quadroverde row">
+                    <div class="col-lg-6 col-sm-12">
+                        <img src="images/MOTOBOY_CASH.svg" alt="" id="header-img">
                     </div>
-                    <div class="quadroverde row">
-                        <div class="col-lg-6 col-sm-12" >
-                            <img src="images/MOTOBOY_CASH.svg" alt="" id="header-img">
-                        </div>
-                        <div class="col-lg-6 col-sm-12" id="header-form">
-                            <h3>faça o download do e-book gratuito</h3>
-                            <form action="https://smtl.gama.academy/leads/db22b661-915e-11ea-9e98-2f3c29e0891c">
-                                <input type="text" placeholder="Digite seu nome completo" id="nome" name="nome"><br>
-                                <input type="email" placeholder="digite um e-mail válido" name="email" id="email"><br>
-                                <input type="submit" value="baixar e-book" id="download-btn">
-                            </form>
-                        </div>
+                    <div class="col-lg-6 col-sm-12" id="header-form">
+                        <h3>faça o download do e-book gratuito</h3>
+                        <form method="POST"
+                            action="https://smtl.gama.academy/leads/db22b661-915e-11ea-9e98-2f3c29e0891c">
+                            <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$"
+                                title=" Digite seu nome completo" required placeholder="Nome completo" id="nome"><br>
+                            <input name="email" type="email" required placeholder="Email" id="email"><br>
+
+
+                            <input name="redirectTo" type="hidden" value="https://www.drive4cash/thankyou.html" />
+                            <input name="debugMode" type="hidden" value="true" />
+
+                            <input type="submit" value="baixar e-book" id="download-btn">
+                        </form>
                     </div>
-                </header>
-            </div>
+                </div>
+            </header>
+        </div>
 
 
-            <article class="quadroverde">
-                <h5 class="titulo-funcionalidade">O QUE VOCÊ VAI APRENDER</h5>
+        <article class="quadroverde">
+            <h5 class="titulo-funcionalidade">O QUE VOCÊ VAI APRENDER</h5>
 
-                <section class="row sessao-topicos">
-                    <div class="col-lg-4 col-sm-6 bloco-topicos">
-                        <img src="public/img/menino-mascara.svg" class="img-topicos" alt="homem banco usando blusa azul com uma mascara branca">
-                        <p class="texto-topicos">Trabalhe em segurança. Aprenda a priorizar sua saúde e a do próximo.</p>
-                    </div>
+            <section class="row sessao-topicos">
+                <div class="col-lg-4 col-sm-6 bloco-topicos">
+                    <img src="public/img/menino-mascara.svg" class="img-topicos"
+                        alt="homem banco usando blusa azul com uma mascara branca">
+                    <p class="texto-topicos">Trabalhe em segurança. Aprenda a priorizar sua saúde e a do próximo.</p>
+                </div>
 
-                    <div class="col-lg-4 col-sm-6 bloco-topicos">
-                        <img src="public/img/dinheiro.svg" class="img-topicos-lampada" alt="nota de um real com algumas moedas empinhadas ao lado">
-                        <p class="texto-topicos texto-topicos-dinheiro">Aprenda a lidar com as finanças.</p>
-                    </div>
+                <div class="col-lg-4 col-sm-6 bloco-topicos">
+                    <img src="public/img/dinheiro.svg" class="img-topicos-lampada"
+                        alt="nota de um real com algumas moedas empinhadas ao lado">
+                    <p class="texto-topicos texto-topicos-dinheiro">Aprenda a lidar com as finanças.</p>
+                </div>
 
-                    <div class="col-lg-4 col-sm-6 bloco-topicos">
-                        <img src="public/img/lampada.svg" class="img-topicos" alt="lampada acessa com bocal roxo">
-                        <p class="texto-topicos">Entenda como os App’s funcionam.</p>
-                    </div>
-                </section>
-            </article>
-            <footer class="footer">
-                <img src="public/img/logo-oficial.png" class="logo-oficial" alt="quadrado verde com bordas arrendondadas, escrito D 4 ">
-                <a href="https://www.facebook.com/Drive-4-Cash-108443814202671/" id="facebook-btn"><img src="public/img/icone-facebook.svg" class="icones" alt="letra f branca dentro de um circulo azul"></a>
-            </footer>
+                <div class="col-lg-4 col-sm-6 bloco-topicos">
+                    <img src="public/img/lampada.svg" class="img-topicos" alt="lampada acessa com bocal roxo">
+                    <p class="texto-topicos">Entenda como os App’s funcionam.</p>
+                </div>
+            </section>
+        </article>
+        <footer class="footer">
+            <img src="public/img/logo-oficial.png" class="logo-oficial"
+                alt="quadrado verde com bordas arrendondadas, escrito D 4 ">
+            <a href="https://www.facebook.com/Drive-4-Cash-108443814202671/" id="facebook-btn"><img
+                    src="public/img/icone-facebook.svg" class="icones"
+                    alt="letra f branca dentro de um circulo azul"></a>
+        </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>

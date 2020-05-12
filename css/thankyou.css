@@ -12,6 +12,7 @@ body {
     width: 90%;
 padding-top: 2%;
 }
+
 .quadroVerde {
     width: 100%;
     height: 600px;
@@ -40,7 +41,7 @@ padding-top: 2%;
 }
 
 .title{
-    font-size: 5em;
+    font-size: 5rem;
     line-height: 117px;
 }
 
@@ -55,14 +56,41 @@ padding-top: 2%;
 .p_text1{
     width: 95%;
     padding-top: 2%;
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
 }
 
 .p_text2{
     width: 90%;
     padding-top: 2%;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     text-align: center;
 }
 
+@media screen and (max-width: 800px){
+    .quadroVerde{
+        padding-top: 4%;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .p_text1{
+        font-size: 2rem;
+    }
+    .p_text2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .title{
+        font-size: 2rem;
+    }
+    .p_text1{
+        font-size: 1.5rem;
+        padding-top: 0%;
+    }
+    .p_text2{
+        font-size: 1rem;
+        padding-top: 0%;
+    }
+}

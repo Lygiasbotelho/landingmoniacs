@@ -17,9 +17,18 @@ header {
     top: 0;
     left: 0;
 }
+
+#header-img {
+    width: 100%;
+}
+
+#header-form {
+    align-items: left;
+}
 input {
     border-radius: 20px;
     margin: 5px;
+    padding: 5px;
     width: 200px;
     font-size: 15px;
 }

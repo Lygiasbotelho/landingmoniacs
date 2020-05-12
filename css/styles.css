@@ -12,6 +12,10 @@ header {
     left: 0;
 }
 
+#header-img {
+    width: 100%;
+}
+
 #header-form {
     align-items: left;
 }

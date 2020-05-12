@@ -18,6 +18,7 @@ header {
 
 #header-form {
     align-items: left;
+    padding: 10% 0;
 }
 input {
     border-radius: 20px;

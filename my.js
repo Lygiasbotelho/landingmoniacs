@@ -11,7 +11,7 @@
         $.ajax({
             url: 'https://smtl.gama.academy/leads/db22b661-915e-11ea-9e98-2f3c29e0891c',
             method: 'POST',
-            data: {name: name, email: email, debugMode: 'true'} ,
+            data: {name: name, email: email} ,
             success: function() {
                 window.location = "thankyou.html"; 
             }

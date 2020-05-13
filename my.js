@@ -1,7 +1,6 @@
     $('#ebookForm').submit(function (event) {
         var name = $('#name').val();
         var email = $('#email').val();
-        var debugMode = $('#debugMode').val();
         event.preventDefault();
         $.ajax({
             url: 'https://drive4cash.us18.list-manage.com/subscribe/post',

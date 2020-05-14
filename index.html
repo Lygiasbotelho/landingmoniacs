@@ -28,28 +28,16 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <main class="container">
-        <div>
-            <header>
-                <div class="quadroverde">
-                    <h3>Descubra como faturar de 2 a 4 mil reais por mês dirigindo para aplicativos</h3>
-                </div>
-                <div class="quadroverde row">
-                    <div class="col-lg-6 col-sm-12">
-                        <img src="images/MOTOBOY_CASH.svg" alt="" id="header-img">
-                    </div>
-                    <div class="col-lg-6 col-sm-12" id="header-form">
-                        <h3>Faça o download do e-book gratuito</h3>
-                        <form id="ebookForm">
-                            <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$"
-                                title=" Digite seu nome completo" required placeholder="Nome completo" id="name"><br>
-                            <input name="email" type="email" required placeholder="Email" id="email"><br>
-                            <input type="submit" value="baixar e-book" id="download-btn">
-                        </form>
-                    </div>
-                    <p>Você possui moto, carro ou Bike?? Então saiba como ganhar até 4 mil reais por mês! 
-                        Quer saber como ser um otimo entregador? Clique aqui e entenda como os apps funcionam</p>
-                </div>
-            </header>
+        <div class='hero'>
+            <div class="main">
+                <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title=" Digite seu nome completo" placeholder="Digite seu nome completo" required /><br>
+                <input name="email" type="email" placeholder="Digite seu e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" required /><br>
+                <input name="redirectTo" type="hidden" value="https://www.drive4cash.com.br/thankyou.html" />
+                <input type="submit" value="baixar e-book" id="download-btn">
+            </div>
+            <div class="tablet">
+                <img class="img-ebook" src="./public/img/EBOOK EM PNG.png">
+            </div>
         </div>
 
 

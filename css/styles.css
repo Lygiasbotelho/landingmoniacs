@@ -1,7 +1,26 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
+.hero {
+    background-image: url('./public/img/3622436.jpg');
+    background-size: 100%;
+    background-position: center;
+    color: #68386f;
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'logo logo' 'main tablet' 'main  tablet';
+}
+
+.img-ebook {
+    width: 350px;
+    height: auto;
+}
+
 @font-face{
     font-family: 'Roboto-Regular';
     src: url('public/font/Roboto-Regular.ttf');

@@ -4,21 +4,25 @@
     box-sizing: border-box;
 }
 
-.hero {
-    background-image: url('./public/img/3622436.jpg');
-    background-size: 100%;
-    background-position: center;
-    color: #68386f;
-    height: 80vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'logo logo' 'main tablet' 'main  tablet';
-}
-
 .img-ebook {
     width: 350px;
     height: auto;
+}
+
+.header-img {
+    width: 50vw;
+}
+
+.form {
+    grid-area: form;
+    background-color: #68386f;
+    margin: auto;
+    padding: auto;
+    border-radius: 5px;
+    box-shadow: black;
+    -webkit-box-shadow: -9px 20px 20px -19px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: -9px 20px 20px -19px rgba(0, 0, 0, 0.69);
+    box-shadow: -9px 20px 20px -19px rgba(0, 0, 0, 0.69);
 }
 
 @font-face{

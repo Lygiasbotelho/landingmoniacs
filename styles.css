@@ -82,7 +82,15 @@ input {
     width: 300px;
     font-size: 15px;
 }
-#nome, #email {
+#nome {
+    width: 300px;
+}
+
+#email {
+    width: 300px;
+}
+
+.form-control {
     width: 300px;
 }
 

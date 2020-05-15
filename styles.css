@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Jost-Regular';
+    src: url('public/font/Jost-Regular.ttf');
+    font-family: 'Jost-Bold';
+    src: url('public/font/Jost-Bold.ttf');
+}
+
+body {
+    text-align: center;
+}
+
+form {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.img-ebook {
+    margin-top: 20vh;
+    height: 50vh;
+    width: auto;
+}
+
+.header {
+    min-height:100%;
+    background: linear-gradient(180deg, rgba(104, 56, 111, 0.5), rgba(104, 56, 111, 1)), url('./public/img/driver.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    
+}
+
+.header-img {
+    width: 50vw;
+}
+
+.form {
+    text-align: center;
+}
+
+#download-btn {
+    background-color: #d8a236;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+    padding-top: 28vh;
+}
+p {
+    font-family: 'Jost', sans-serif;
+}
+
+header {
+    top: 0;
+    left: 0;
+}
+
+#header-img {
+    width: 100%;
+}
+
+#header-form {
+    padding: 10% 0;
+}
+input {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    font-size: 15px;
+}
+#nome {
+    width: 300px;
+}
+
+#email {
+    width: 300px;
+}
+
+.form-control {
+    width: 300px;
+}
+
+.blocos {
+    margin-top: 20vh;
+    text-align: center;
+}
+/*-- Bloco: FUNCIONALIDADES --*/
+.titulo-blocos {
+    background: #68386f;
+    color: #FFFF;
+    padding: 14px;
+    border-radius: 4px;
+    text-align: center;
+}
+.sessao-topicos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.bloco-topicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-depoimentos, .texto-topicos {
+    text-align: center;
+}
+.texto-topicos {
+    font-size: 18px;
+   margin-top: 20px; 
+   color: grey; 
+}
+.texto-topicos-dinheiro {
+    padding-top: 20px;
+}
+
+.img-topicos {
+    width: 60%;
+}
+
+.img-depoimentos {
+    width: 300px;
+    height: auto;
+}
+
+#daniel {
+    width: 350px;
+}
+
+/*-- BLOCO: DEPOIMENTOS --*/
+.bloco-depoimentos {
+    background-color: #F0C5EF;
+    border-radius: 0 100% 0 0;
+}
+
+.titulo-depoimentos {
+    text-transform: uppercase;
+    margin-bottom: 20vh;
+    color: #68386f;
+    font-size: 30px;
+    letter-spacing: 4px;
+    
+}
+
+.titulo-nome {
+    font-size: 25pxg;
+}
+.titulo-depoimentos, .titulo-nome {
+    color: #68386f;
+}
+
+.texto-depoimentos {
+    font-size: 18px;
+   margin-top: 20px; 
+}
+
+
+/*-- Footer --*/
+footer{
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(104, 56, 111, 1);
+}
+
+.logo-oficial {
+    width: 7%;
+    margin-left: 50px;
+}
+.icones {
+    width: 50%;;
+}
+
+
+
+@media only screen and (max-width: 576px) { 
+
+#email {
+    width: 300px;
+}
+
+.logo-oficial {
+    width: 20%;
+}
+.icones {
+    width: 50%;
+}
+.bloco-depoimentos {
+    background-color: none;
+}
+
+.tablet {
+    display: none;
+}
+
+}

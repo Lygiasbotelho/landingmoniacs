@@ -147,6 +147,10 @@ input {
     letter-spacing: 4px;
     
 }
+
+.titulo-nome {
+    font-size: 25pxg;
+}
 .titulo-depoimentos, .titulo-nome {
     color: #68386f;
 }

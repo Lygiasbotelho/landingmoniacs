@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.header {
+    width: 100%; 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.top_mobile{
+    visibility: hidden;
+    width: 0%;
+}
+.title_moobile{
+    visibility: hidden;
+    width: 0%;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #68386f;
+}
+
+.tablet{
+    position: absolute;
+    left: 34%;
+    top: 32%;
+    width: 100%;
+}
+.img-ebook {
+    width: 40%;
+}
+
+.header-img {
+    width: 50%;
+    background: linear-gradient(180deg, rgba(104, 56, 111, 0.5), rgba(104, 56, 111, 1)), url('./public/img/driver.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+    text-align: center;
+}
+p{
+    font-family: 'Jost', sans-serif;
+}
+
+input {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    font-size: 15px;
+}
+#nome, #email {
+    width: 300px;
+}
+.quadroverde {
+    margin: 20px;
+    padding: 20px;
+    background-color:#26AA5E;;
+    color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 7px 7px darkgray;
+}
+
+/*-- Bloco: Funcionalidades App --*/
+.sessao-topicos{
+    margin-top: 60px;
+}
+.bloco-topicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-funcionalidade, .texto-topicos {
+    text-align: center;
+}
+.texto-topicos {
+    font-size: 25px;
+   margin-top: 20px;  
+}
+.texto-topicos-dinheiro {
+    padding-top: 20px;
+}
+
+.img-topicos {
+    width: 60%;
+}
+.img-topicos-lampada {
+    width: 70%;
+}
+
+
+
+/*-- Footer --*/
+footer{
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(104, 56, 111, 1);
+}
+
+.logo-oficial {
+    width: 7%;
+    margin-left: 50px;
+}
+.icones {
+    width: 50%;;
+}
+
+@media screen and (max-width: 1000px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title_mobile{
+        visibility: visible;
+        width: 100%;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .tablet{
+        width: 0%;
+        visibility: hidden;
+    }
+
+    .img-ebook{
+        visibility: hidden;
+        width: 0%;
+    }
+
+    .header-img{
+        width: 0%;
+    }
+    .top_mobile{
+        visibility: visible;
+        background: linear-gradient(180deg, rgba(104, 56, 111, 0.5), rgba(104, 56, 111, 1)), url('./public/img/driver.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 350px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    h3{
+        background: #d8a236;
+        border-radius: 10px;
+        font-size: 1.8rem;
+    }
+
+    .mobile_roxo{
+        width: 100%;
+        height: 40px;
+        color:#68386f;
+    }
+
+    input{
+        width: 90%;
+        height: 56px;
+    }
+
+
+}
+
+
+

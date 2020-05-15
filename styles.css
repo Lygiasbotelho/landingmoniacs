@@ -18,6 +18,7 @@ body {
 form {
     display: block;
     margin: auto;
+    padding-top: 10px;
 }
 
 .img-ebook {
@@ -44,8 +45,6 @@ form {
 
 .form {
     text-align: center;
-    padding-top: 28vh;
-    grid-area: form;
 }
 
 #download-btn {
@@ -58,6 +57,7 @@ h3 {
     color: white;
     font-size: 3em;
     padding: 10px;
+    padding-top: 28vh;
 }
 p {
     font-family: 'Jost', sans-serif;

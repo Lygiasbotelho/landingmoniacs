@@ -37,12 +37,11 @@
             </div>
             <div class="form col-md-6" id="ebookForm">
                 <h3>AUMENTE SUA RENDA</h3>
-                <form method="POST" action="https://smtl.gama.academy/leads/db22b661-915e-11ea-9e98-2f3c29e0891c">
-                    <input type="text" id="nome" name="name" pattern="^\D{2,}\s[\D\s]{2,}$" oninvalid="this.setCustomValidity('Por favor, digite seu nome completo')"
+                <form method="POST" class="form" action="https://smtl.gama.academy/leads/db22b661-915e-11ea-9e98-2f3c29e0891c">
+                    <input type="text" id="nome" name="nome" pattern="^\D{2,}\s[\D\s]{2,}$" oninvalid="this.setCustomValidity('Por favor, digite seu nome completo')"
                         oninput="this.setCustomValidity('')" title=" Digite seu nome completo" placeholder="Digite seu nome completo" required /><br>
                     <input type="email" id="email" name="email" placeholder="Digite seu e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" oninvalid="this.setCustomValidity('Por favor, coloque um email válido')"
                         oninput="this.setCustomValidity('')" required /><br>
-                    <input name="redirectTo" type="hidden" value="https://www.drive4cash.com.br/thankyou.html" />
                     <input type="submit" value="RECEBA SEU GUIA" id="download-btn">
                 </form>
             </div>

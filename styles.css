@@ -90,13 +90,19 @@ input {
     color: #FFFF;
     padding: 14px;
     border-radius: 4px;
+    text-align: center;
 }
 .sessao-topicos {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
-.titulo-funcionalidade, .texto-topicos {
+.bloco-topicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-depoimentos, .texto-topicos {
     text-align: center;
 }
 .texto-topicos {
@@ -175,7 +181,9 @@ footer{
 .icones {
     width: 50%;
 }
-
+.bloco-depoimentos {
+    background-color: none;
+}
 
 }
 

@@ -54,7 +54,7 @@ h3 {
     padding: 10px;
 }
 p {
-    font-family: 'Jost-Regular';
+    font-family: 'Jost', sans-serif;
 }
 
 header {
@@ -81,8 +81,8 @@ input {
 }
 
 .blocos {
-    margin-top: 30vh;
-
+    margin-top: 20vh;
+    text-align: center;
 }
 /*-- Bloco: FUNCIONALIDADES --*/
 .titulo-blocos {
@@ -111,8 +111,14 @@ input {
 .img-topicos {
     width: 60%;
 }
-.img-topicos-lampada {
-    width: 70%;
+
+.img-depoimentos {
+    width: 300px;
+    height: auto;
+}
+
+#daniel {
+    width: 350px;
 }
 
 /*-- BLOCO: DEPOIMENTOS --*/
